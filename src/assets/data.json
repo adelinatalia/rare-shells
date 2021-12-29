@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Conus Gloriamaris",
+        "description": "This seashell one of the most valuable natural history objects in existence.",
+        "img": "images/conus-gloriamaris-seashell.png"
+    },
+    {
+        "id": 2,
+        "name": "Nautilus Shell",
+        "description": "Rare and intriguing living fossil appeared nearly 500 million years ago",
+        "img": "images/nautilus-shell.png"
+    },
+    {
+        "id": 3,
+        "name": "Hundred-Eyed Cowrie",
+        "description": "This Shell species is one of the rarest seashells in the world.",
+        "img": "images/hundred-eyed-cowrie-shell.png"
+    },
+    {
+        "id": 4,
+        "name": "Queen Conch",
+        "description": "This Shell has long been considered one of the most beautiful types of shells.",
+        "img": "images/queen-conch-shell.png"
+    },
+    {
+        "id": 5,
+        "name": "Venus Comb Murex",
+        "description": "This unique shell is hard to find intact as it has over 100 spines that can break off.",
+        "img": "images/venus-comb-murex-shell.png"
+    },
+    {
+        "id": 6,
+        "name": "Miyoko Murex",
+        "description": "This seashell comes from the Muricidae family of shells.",
+        "img": "images/miyoko-murex-seashell.png"
+    }
+]

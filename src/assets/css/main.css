@@ -5,7 +5,17 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary: #3F656B;
+    --secondary: #F2C78F;
+    --bg-color: #f1e8de;
+    --txt: #101516;
+}
+
 body {
     font-family: 'Lato', sans-serif;
+    letter-spacing: 0.02em;
+    word-spacing: 0.1em;
+    background-color: var(--bg-color);
 }
 
