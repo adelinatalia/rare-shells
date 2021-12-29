@@ -20,6 +20,11 @@ export default {
 </script>
 
 <style scoped>
+header {
+  width: 100vw;
+  height: 70vh;
+}
+
 #hero-video {
   width: 100vw;
   height: 70vh;
@@ -29,7 +34,7 @@ video {
   width: 100%;
   object-fit: cover;
   overflow: hidden;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
@@ -44,5 +49,12 @@ h1 {
   -webkit-text-stroke-color: #fff;
   position: relative;
   top: 5rem;
+}
+
+@media only screen and (max-width: 470px) {
+  header h1 {
+    top: 2rem;
+    font-size: 4em;
+  }
 }
 </style>

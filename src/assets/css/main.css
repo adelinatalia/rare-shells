@@ -8,8 +8,13 @@
 :root {
     --primary: #3F656B;
     --secondary: #F2C78F;
+    --secondary-hover: rgba(242, 199, 143, 0.7);
     --bg-color: #f1e8de;
     --txt: #101516;
+}
+
+html {
+    overflow-x: hidden;
 }
 
 body {
@@ -19,3 +24,17 @@ body {
     background-color: var(--bg-color);
 }
 
+.btn {
+    padding: 0.8rem 2.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--secondary);
+    color: #fff;
+    font-size: 0.9em;
+    font-weight: bold;
+    letter-spacing: inherit;
+}
+
+.btn:hover, .btn:focus {
+    background-color: var(--secondary-hover);
+}
