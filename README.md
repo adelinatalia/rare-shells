@@ -14,4 +14,4 @@ The Wireframe I created with Figma.
 
 This Website has been deployed on GitHub Pages.
 
-[check it out here]()
+[check it out here](https://adelinatalia.github.io/rare-shells/)

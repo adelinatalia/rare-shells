@@ -1,3 +1,3 @@
 module.exports = {
-    publicPath: process.env.NODE_ENV === "production" ? "/rare-shell/" : "/",
+    publicPath: process.env.NODE_ENV === "production" ? "/rare-shells/" : "/",
 };
