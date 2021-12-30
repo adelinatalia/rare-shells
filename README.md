@@ -1,24 +1,17 @@
-# rare-shell
+# Rare Shells
 
-## Project setup
-```
-npm install
-```
+## Vue.js SPA - Single Page Application
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+I built this Website just to practice Vue.js and responsive Web Design.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### Wireframe 
 
-### Lints and fixes files
-```
-npm run lint
-```
+The Wireframe I created with Figma.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![wire frame](./src/assets/images/rara-shells.PNG)
+
+### Visit Website
+
+This Website has been deployed on GitHub Pages.
+
+[check it out here]()
