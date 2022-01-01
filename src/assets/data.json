@@ -3,36 +3,72 @@
         "id": 1,
         "name": "Conus Gloriamaris",
         "description": "This seashell one of the most valuable natural history objects in existence.",
-        "img": "images/conus-gloriamaris-seashell.png"
+        "img": "images/conus-gloriamaris-seashell.png",
+        "txt": [
+            "The Conus Gloriamaris or ‘Glory of the Sea Cone’ as it is more commonly known, is one of the most expensive and rarest seashells in the world.",
+            "This beautiful seashell comes from the Conidae or cone snail family, and originates from the Indo-Pacific region.",
+            "This Conidae’s elegant features make this beautiful type of seashell one of the most valuable natural history objects in existence."
+        ]
     },
     {
         "id": 2,
         "name": "Nautilus Shell",
         "description": "Rare and intriguing living fossil appeared nearly 500 million years ago",
-        "img": "images/nautilus-shell.png"
+        "img": "images/nautilus-shell.png",
+        "txt": [
+            "Nautiluses are one of the most beautiful types of seashells in the word.",
+            "This rare and intriguing living fossil appeared nearly 500 million years ago, and can be found living on deep slopes and coral reefs of the Indo-Pacific.",
+            " If you take a cross section look at a Nautilus shell, you would see that they are made up of many coiled chambers.",
+            "The outer chamber houses the squishy body of the nautilus, while their inner chambers are filled with a nitrogen-gas mixture.",
+            " Their beautiful seashell armour is comprised of pearlescent layers which disguises them in the sea.",
+            "Their striking iridescent shells are sought-after amongst shell collectors and make exquisite pieces of jewelry, like our beautiful statement Nautilus Shell Necklace."
+        ]
     },
     {
         "id": 3,
         "name": "Hundred-Eyed Cowrie",
         "description": "This Shell species is one of the rarest seashells in the world.",
-        "img": "images/hundred-eyed-cowrie-shell.png"
+        "img": "images/hundred-eyed-cowrie-shell.png",
+        "txt": [
+            "The Hundred-Eyed Cowrie Shell species is one of the rarest seashells in the world.",
+            "You will be lucky to spot this unusual sea jewel feeding around shallow coral reefs and hiding under loose rocks along the shores of the remote tropical islands of Chagos, Madagascar, Reunion and the Seychelles.",
+            "Seashell identification is pretty easy with the Hundred-Eyed Cowrie Shell.",
+            "This beautiful type of seashell is creamy in colour and covered in tiny brown circles which look like eyes – hence its name.",
+            "Their distinctive polka dot pattern and perfect porcelain finish make these rare cowrie shells really recognisable."
+        ]
     },
     {
         "id": 4,
         "name": "Queen Conch",
         "description": "This Shell has long been considered one of the most beautiful types of shells.",
-        "img": "images/queen-conch-shell.png"
+        "img": "images/queen-conch-shell.png",
+        "txt": [
+            "The regal Queen Conch Shell has long been considered one of the most beautiful types of shells.",
+            "Growing up to 10 inches in length, the Queen Conch is one of the largest seashell species in existence and comes from the Strombidae family of shells which are native to the Caribbean Sea.",
+            "With the combination of their gigantic size and desirable looks, this particular type of shell species is now at threat as they have been overfished for their meat and are popular amongst shell collectors."
+        ]
     },
     {
         "id": 5,
         "name": "Venus Comb Murex",
         "description": "This unique shell is hard to find intact as it has over 100 spines that can break off.",
-        "img": "images/venus-comb-murex-shell.png"
+        "img": "images/venus-comb-murex-shell.png",
+        "txt": [
+            "The Venus Comb Murex derives from the Muricidae family of shells.",
+            "This beautiful seashell is typically found in the tropical waters of the Indo-Pacific.",
+            "The spines help the sea snail protect itself from predators and stops them from sinking into sand and mud.",
+            "This is not one of the rarest seashells in the world, perfect specimens of the Venus Comb Murex are hard to find due to their extremely delicate formation."
+        ]
     },
     {
         "id": 6,
         "name": "Miyoko Murex",
         "description": "This seashell comes from the Muricidae family of shells.",
-        "img": "images/miyoko-murex-seashell.png"
+        "img": "images/miyoko-murex-seashell.png",
+        "txt": [
+            "This particular type of shell can be found in the Central Visayas region of the Philippines and the Solomon Islands.",
+            "While the Miyoko Murex of the Philippines is mostly an orange-brown colour, the same shell species found in the Solomon Islands are pure white.",
+            "This beautiful seashell comes from the Muricidae family of shells, which are large predatory sea snails, often referred to as rock snails or murex snails."
+        ]
     }
 ]

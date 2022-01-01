@@ -13,20 +13,49 @@
         <div class="txt">
           <p>{{ shell.description }}</p>
         </div>
-        <button class="btn btn-more">read more</button>
+        <button class="btn btn-more" @click="toggleModal(shell.id)">
+          read more
+        </button>
       </div>
     </section>
+    <!-- modal card -->
+    <div
+      class="modal"
+      v-for="shell in shells"
+      :key="shell.id"
+      v-show="selectedId == shell.id"
+    >
+      <!-- <ModalCard @close="toggleModal()" :shells="shells" /> -->
+      <modal-card @close="toggleModal()">
+        <h2>{{ shell.name }}</h2>
+        <p>{{ shell.txt.join("\n") }}</p>
+        <button class="btn" @click="toggleModal()">close</button>
+      </modal-card>
+    </div>
   </div>
 </template>
 
 <script>
 import data from "../assets/data.json";
+import ModalCard from "./ModalCard.vue";
 
 export default {
+  components: { ModalCard },
   data() {
     return {
       shells: data,
+      selectedId: "",
+      showModal: false,
     };
+  },
+  computed: {
+    parsedTxt: {},
+  },
+  methods: {
+    toggleModal(id) {
+      this.selectedId = id;
+      this.showModal = !this.showModal;
+    },
   },
 };
 </script>
@@ -80,6 +109,12 @@ export default {
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+/* modal */
+.modal h2,
+.btn {
+  margin: 2rem 0;
 }
 
 /* big screen */
