@@ -25,12 +25,12 @@
       :key="shell.id"
       v-show="selectedId == shell.id"
     >
-      <!-- <ModalCard @close="toggleModal()" :shells="shells" /> -->
       <modal-card @close="toggleModal()">
         <h2>{{ shell.name }}</h2>
-        <p>{{ shell.txt.join("\n") }}</p>
+        <p>{{ parsedTxt[shell.id] }}</p>
         <button class="btn" @click="toggleModal()">close</button>
       </modal-card>
+      <!-- <ModalCard @close="toggleModal()" :shells="shells" /> -->
     </div>
   </div>
 </template>
@@ -49,7 +49,12 @@ export default {
     };
   },
   computed: {
-    parsedTxt: {},
+    parsedTxt() {
+      return this.shells.reduce((acc, shell) => {
+        acc[shell.id] = shell.txt.join("\n");
+        return acc;
+      }, {});
+    },
   },
   methods: {
     toggleModal(id) {
@@ -113,7 +118,7 @@ export default {
 
 /* modal */
 .modal h2,
-.btn {
+.modal .btn {
   margin: 2rem 0;
 }
 
