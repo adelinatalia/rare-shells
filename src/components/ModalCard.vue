@@ -32,4 +32,9 @@ export default {
   border-radius: 10px;
   background: rgb(252, 249, 249);
 }
+@media only screen and (max-width: 930px) {
+  .modal {
+    width: 95vw;
+  }
+}
 </style>
