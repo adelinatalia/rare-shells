@@ -33,6 +33,7 @@ body {
     font-size: 0.9em;
     font-weight: bold;
     letter-spacing: inherit;
+    cursor: pointer;
 }
 
 .btn:hover, .btn:focus {
